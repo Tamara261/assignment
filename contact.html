@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Thao's Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <!-- Font and icon -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mmenu.css">
+
+
+        <title>A Coffee shop</title>
+       
+    </head>
+
+    <body>
+        <div id="page">
+
+            <!-- Navigation - mobile -->
+            <div class="navigation">
+                <div id="header">
+                    <a class="logo" href="index.html">
+                        <img class="logo" src="img/Logo.png" alt="acoffee-logo">
+                    </a>
+                    <a class="menu-icon" href="#menu"><span class="material-icons md-36 md-dark">
+                        menu
+                        </span></a>
+                    <nav id="menu">
+                        <ul>
+                            <li class="Selected">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="menu.html">Menu</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="event.html">Event</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="nav-desktop">
+
+                <div class="nav-items">
+
+                    <a class="logo" href="index.html">
+                    <img class="logo" src="img/Logo.png" alt="acoffee-logo">
+                    </a>
+
+                    <div class="nav-categories">
+                    <ul>
+                        <li class="Selected">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="menu.html">Menu</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="event.html">Event</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- End navigation -->
+
+
+            <!-- About content -->
+
+            <div class="wrapper">
+                <!-- Drink list -->
+                    <section class="intro">
+
+                     </section>
+
+                     <section class="main-content">
+                    
+                        <div class="grid-2">
+                            <img src="img/contact.jpg" alt="contact">
+                            <div class="grid-item">
+                                <h3>Contact us</h3>
+                                <div class="ev-detail">
+
+                                    <div class="detail">
+                                        <h5>Reach us at</h5>
+                                        <p>12A, Store location, Town, City</p>
+                                    </div>
+                                    <div class="detail">
+                                        <h5>Phone number</h5>
+                                        <p>(+1) 999 999 999</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="email">
+                                    <h5>Our email</h5>
+                                    <a href="mailto:coffee@email.com">acoffee@email.com</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                     </section>
+
+            </div>
+
+
+    
+        </div>
+    
+        
+    
+        <!-- Script -->
+    
+        <!-- Menu -->
+        
+    
+        <script src="js/mmenu.js"></script>
+            <script>
+                document.addEventListener(
+                    "DOMContentLoaded", () => {
+                        new Mmenu( "#menu", {
+                           "extensions": [
+                              "position-right",
+                              "theme-light"  
+                           ]
+                           
+                        });
+                    }
+                );
+            </script>
+    
+    
+    
+        </body>
+    
+    </html>

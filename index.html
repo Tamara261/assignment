@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Thao's Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <!-- Font and icon -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mmenu.css">
+
+
+        <title>A Coffee shop</title>
+       
+    </head>
+
+    <body>
+        <div id="page">
+
+            <!-- Navigation - mobile -->
+            <div class="navigation">
+                <div id="header">
+                    <a class="logo" href="index.html">
+                        <img class="logo" src="img/Logo.png" alt="acoffee-logo">
+                    </a>
+                    <a class="menu-icon" href="#menu"><span class="material-icons md-36 md-dark">
+                        menu
+                        </span></a>
+                    <nav id="menu">
+                        <ul>
+                            <li class="Selected">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="menu.html">Menu</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="ev">Event</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="nav-desktop">
+
+                <div class="nav-items">
+
+                    <a class="logo" href="index.html">
+                    <img class="logo" src="img/Logo.png" alt="acoffee-logo">
+                    </a>
+
+                    <div class="nav-categories">
+                    <ul>
+                        <li class="Selected">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="menu.html">Menu</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="event.html">Event</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- End navigation -->
+
+            <!-- CONTENT -->
+
+            <!-- Masthead -->
+            <section class="masthead">
+                <picture>
+                    <source media="(min-width:48em)" srcset="img/banner-1200.jpg">
+                <img src="img/masthead.jpg" alt="masthead img">
+                </picture>
+                <div class="mh-content">
+                    <h1>Cherry Blossom coffee</h1>
+                    <p>New coffee taste for only this spring, with the flavor of cherry blossoms and latte</p>
+                    <button class="btn btn-filled">View more</button>
+                </div>
+            </section>
+
+            <!-- End masthead -->
+
+            <!-- Promote drinks -->
+            <section class="pm-drink">
+                <div class="pm-label">
+                    <h3>Drinks of the month</h3>
+                    <p>New summer tastes are waiting for you</p>
+                </div>
+                <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                          <img src="img/mystical-dance-968.jpg" alt="mystical-dance">
+                          <div class="pm-caption">
+                            <h4>Mystical dance</h4>
+                            <p>A dance of coldbrew with red wine</p>
+                            <p class="price">$8.99</p>
+                          </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="img/lemon-sunshine-968.jpg" alt="mystical-dance">
+                        <div class="pm-caption">
+                          <h4>Lemon sunshine</h4>
+                          <p>A combination of lemon and wine</p>
+                          <p class="price">$8.99</p>
+                        </div>
+                      </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- End promote drinks -->
+
+            <!-- Featured drinks -->
+
+            <section class="ft-drinks">
+                <div class="ft-label">
+                    <h3>Signature beverages</h3>
+                </div>
+
+                <div class="ft-grid">
+
+                    <div class="dr-card">
+                        <img src="img/drink-cards/berries.jpg" alt="berries">
+                        <div class="card-info">
+                            <h5>Berries mix</h5>
+                            <p class="price">$8.99</p>
+                        </div>
+                    </div>
+
+                    <div class="dr-card">
+                        <img src="img/drink-cards/matcha.jpg" alt="matcha">
+                        <div class="card-info">
+                            <h5>Pure matcha</h5>
+                            <p class="price">$8.99</p>
+                        </div>
+                    </div>
+
+                    <div class="dr-card">
+                        <img src="img/drink-cards/black-coffee.jpg" alt="black coffee">
+                        <div class="card-info">
+                            <h5>Black coffee</h5>
+                            <p class="price">$8.99</p>
+                        </div>
+                    </div>
+
+                    <div class="dr-card">
+                        <img src="img/drink-cards/creamy.jpg" alt="creamy coffee">
+                        <div class="card-info">
+                            <h5>Creamy coffee</h5>
+                            <p class="price">$8.99</p>
+                        </div>
+                    </div>
+
+                    <div class="dr-card">
+                        <img src="img/drink-cards/cocktail.jpg" alt="summer cocktail">
+                        <div class="card-info">
+                            <h5>Summer cocktail</h5>
+                            <p class="price">$8.99</p>
+                        </div>
+                    </div>
+
+                    <div class="dr-card">
+                        <img src="img/drink-cards/milk-coffee.jpg" alt="milk-coffee">
+                        <div class="card-info">
+                            <h5>Milk coffee</h5>
+                            <p class="price">$8.99</p>
+                        </div>
+                    </div>
+
+                    <div class="dr-card">
+                        <img src="img/drink-cards/capuchino.jpg" alt="capuchino coffee">
+                        <div class="card-info">
+                            <h5>Summer cocktail</h5>
+                            <p class="price">$8.99</p>
+                        </div>
+                    </div>
+
+                    <div class="dr-card">
+                        <img src="img/drink-cards/strawberry.jpg" alt="strawberry coconut">
+                        <div class="card-info">
+                            <h5>Strawberry coconut</h5>
+                            <p class="price">$8.99</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- End Featured drinks -->
+
+            <!-- Event -->
+
+            <section class="event">
+                <picture>
+                <source media="(min-width:1440px)" srcset="img/event/event-banner-1440.jpg">
+                <source media="(min-width:1200px)" srcset="img/event/event-banner-1200.jpg">
+                <source media="(min-width:960px)" srcset="img/event/event-banner-968.jpg">
+                <img src="img/event/event.jpg" alt="event banner">
+                </picture>
+                <div class="ev-label">
+                    <h5>New event</h5>
+                    <h3>Create your own coffee wine</h3>
+                    <p>On February 17th, we have a very special event for anyone who enjoys the mix of wine and coffee...</p>
+                    <a href="event.html"><button class="btn btn-filled">View more</button></a>
+                </div>
+            </section>
+
+            <!-- Subcribe -->
+
+            <section class="subcribe">
+                <div class="subcribe-head">
+                    <h4>Subscribe to us and get a discount 15% for your first drink</h4>
+                </div>
+
+                    <form>
+                        <input class="input" type="email" id="email" name="email" placeholder="Enter your email">
+                    </form>
+                    <button class="btn btn-outline">Subcribe</button>
+                
+            </section>
+
+            <!-- End subcribe -->
+      
+
+        
+            <footer>
+                <div class="main-footer">
+                    <div class="footer-head">
+                         <h4>The best coffee cups are ready for you. </h4>
+                    </div>
+
+                    <div class="footer-info">
+
+                    <div class="location">
+                    <h5>Reach us at</h5>
+                    <p>12A, Store location sample, Town, City</p>
+                     </div>
+
+                     <div class="phone">
+                     <h5>Take away</h5>
+                    <p>+1 (999) 999 999</p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="copyright">
+                 <p class="caption">All Rights Reserved. © Copyright 2022</p>
+                </div>
+
+            </footer>
+
+        </div>
+
+    <!-- Script -->
+
+    <!-- Menu -->
+    
+
+    <script src="js/mmenu.js"></script>
+        <script>
+            document.addEventListener(
+                "DOMContentLoaded", () => {
+                    new Mmenu( "#menu", {
+                       "extensions": [
+                          "position-right",
+                          "theme-light"  
+                       ]
+                       
+                    });
+                }
+            );
+        </script>
+
+    
+     <!-- Swiper JS -->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+     <script>
+
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "auto",
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+
+      </script>
+
+    </body>
+
+</html>

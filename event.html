@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Thao's Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <!-- Font and icon -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mmenu.css">
+
+
+        <title>A Coffee shop</title>
+       
+    </head>
+
+    <body>
+        <div id="page">
+
+            <!-- Navigation - mobile -->
+            <div class="navigation">
+                <div id="header">
+                    <a class="logo" href="index.html">
+                        <img class="logo" src="img/Logo.png" alt="acoffee-logo">
+                    </a>
+                    <a class="menu-icon" href="#menu"><span class="material-icons md-36 md-dark">
+                        menu
+                        </span></a>
+                    <nav id="menu">
+                        <ul>
+                            <li class="Selected">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="menu.html">Menu</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="event.html">Event</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="nav-desktop">
+
+                <div class="nav-items">
+
+                    <a class="logo" href="index.html">
+                    <img class="logo" src="img/Logo.png" alt="acoffee-logo">
+                    </a>
+
+                    <div class="nav-categories">
+                    <ul>
+                        <li class="Selected">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="menu.html">Menu</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="event.html">Event</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- End navigation -->
+
+
+            <!-- About content -->
+
+            <div class="wrapper">
+                <!-- Drink list -->
+                    <section class="intro">
+                        <h2>Event</h2>
+                        <p>Discover your drinks with us now</p>
+                     </section>
+
+                     <section class="main-content">
+                    
+                        <div class="grid-2">
+                            <img src="img/event/event-banner-1200.jpg" alt="coffee-shop">
+                            <div class="grid-item">
+                                <h3>Create your own coffee wine</h3>
+                                <p>On February 17th, we have a very special event for anyone who enjoys the mix of wine and coffee. Let's join us now</p>
+                                <div class="ev-detail">
+
+                                    <div class="detail">
+                                        <h5>Time</h5>
+                                        <p>2:00 PM 17 Jun, 2022</p>
+                                    </div>
+                                    <div class="detail">
+                                        <h5>Location</h5>
+                                        <p>1st floor, A avenue</p>
+                                    </div>
+
+                                </div>
+
+                                <button class="btn btn-filled">Register</button>
+                            </div>
+                        </div>
+
+
+                        <div class="grid-2">
+                            <img src="img/event/healthy-drinks.jpg" alt="healthy-drinks">
+                            <div class="grid-item">
+                                <h3>Healthy drinks healthy life</h3>
+                                <p>Drinks also play an important role in your diet. Let's our specialists instruct you to create healthy and great drinks ever with very simple recipes. </p>
+                                <div class="ev-detail">
+
+                                    <div class="detail">
+                                        <h5>Time</h5>
+                                        <p>3:00 PM 05 July, 2022</p>
+                                    </div>
+                                    <div class="detail">
+                                        <h5>Location</h5>
+                                        <p>1st floor, Acoffee shop</p>
+                                    </div>
+
+                                </div>
+
+                                <button class="btn btn-filled">Register</button>
+                            </div>
+                        </div>
+
+
+                     </section>
+
+            </div>
+
+
+
+
+            <!-- Footer -->
+
+                <footer>
+                    <div class="main-footer">
+                        <div class="footer-head">
+                             <h4>The best coffee cups are ready for you. </h4>
+                        </div>
+    
+                        <div class="footer-info">
+    
+                        <div class="location">
+                        <h5>Reach us at</h5>
+                        <p>12A, Store location sample, Town, City</p>
+                         </div>
+    
+                         <div class="phone">
+                         <h5>Take away</h5>
+                        <p>+1 (999) 999 999</p>
+                        </div>
+                        </div>
+                    </div>
+    
+                    <div class="copyright">
+                     <p class="caption">All Rights Reserved. © Copyright 2022</p>
+                    </div>
+    
+                </footer>
+    
+            <!-- End footer -->
+    
+        </div>
+    
+        
+    
+        <!-- Script -->
+    
+        <!-- Menu -->
+        
+    
+        <script src="js/mmenu.js"></script>
+            <script>
+                document.addEventListener(
+                    "DOMContentLoaded", () => {
+                        new Mmenu( "#menu", {
+                           "extensions": [
+                              "position-right",
+                              "theme-light"  
+                           ]
+                           
+                        });
+                    }
+                );
+            </script>
+    
+    
+    
+        </body>
+    
+    </html>
